@@ -1,0 +1,22 @@
+<%=form_for(:Student,:url=>{:action=>'create'}) do |f|%>
+
+<div class="form_fields"%>
+<%=f.label :rollno,:class=>"control_label"%>
+<%=f.text_field(:rollno)%>
+</div>
+<div class="form_fields"%>
+<%=f.label :name,:class=>"control_label"%>
+<%=f.text_field(:name)%>
+</div>
+<div class="form_fields"%>
+<%=f.label :grade,:class=>"control_label"%>
+<%=f.text_field(:grade)%>
+</div>
+<div class="form_fields"%>
+<%=f.label :branch,:class=>"control_label"%>
+<%=f.text_field(:branch)%>
+</div>
+<div class="form_buttons"%>
+<%=submit_tag("submit")%>
+</div>
+<%end%>

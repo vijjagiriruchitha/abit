@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rollno: 
+  name: MyString
+  branch: MyString
+  grade: MyString
+
+two:
+  rollno: 
+  name: MyString
+  branch: MyString
+  grade: MyString

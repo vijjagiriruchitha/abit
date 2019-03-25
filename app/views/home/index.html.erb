@@ -1,0 +1,78 @@
+  <div class="container">
+		<h3 class="title">Our  <span>Team</span></h3>
+		<div class="team_gds">
+			<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<div class="team_pos">
+					<div class="team_back"></div>
+					<img class="img-responsive" src="assets/t1.jpg" alt=" ">
+					<div class="team_info">
+						<a href="#" class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<h4>Victoria</h4>
+				<p>Lorem Ipsum</p>
+			</div>
+		
+			<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<div class="team_pos">
+					<div class="team_back"></div>
+					<img class="img-responsive" src="images/t2.jpg" alt=" ">
+					<div class="team_info">
+						<a href="#" class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<h4>Patrick</h4>
+				<p>Lorem Ipsum</p>
+			</div>
+			<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<div class="team_pos">
+					<div class="team_back"></div>
+					<img class="img-responsive" src="images/t3.jpg" alt=" ">
+					<div class="team_info">
+						<a href="#" class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<h4>Thompson</h4>
+				<p>Lorem Ipsum</p>
+			</div>
+			<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<div class="team_pos">
+					<div class="team_back"></div>
+					<img class="img-responsive" src="images/t4.jpg" alt=" ">
+					<div class="team_info">
+						<a href="#" class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+						<a href="#" class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<h4>Federica</h4>
+				<p>Lorem Ipsum</p>
+			</div>
+			<div class="clearfix"></div>		
+		</div>
+	
+</div>
+
+<h1> Student information </h1>
+
+<table>
+<th>Rollno</th>
+<th>Name</th>
+<th>Grade</th>
+<th>Branch</th>
+
+<tr>
+<%@s.each do |s|%>
+<td><%=s.rollno%></td>
+<td><%=s.name%></td>
+<td><%=s.grade%></td>
+<td><%=s.branch%></td>
+</tr>
+<%end%>		
+</table>																																									
